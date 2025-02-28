@@ -1,0 +1,10 @@
+iimage: node:latest
+
+pages:
+  script:
+    - mkdir public
+    - cp -r * public
+  artifacts:
+    paths:
+      - public
+
